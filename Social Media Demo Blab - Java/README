@@ -1,0 +1,9 @@
+Program resembles a social media platform called Blabber. The user is able to: Create an Account.
+Follow other accounts, Post a "blab", and view "blabs. The program focuses on the following things:
+1.- Waits on user input to determine what it should do. Program outputs messages based on attempt, success or failure. 
+2.- Method CreateAccount creates an account( a text file) with the specified username. 
+There are many restrictions such as username has to not already exist, must be alphanumeric, etc. 
+3.- FollowAccount is a command that allows one user to follow another user, enabling them to see their blabs on the timeline. 
+4.- PostBlab command allows user to post a blab, save, and separate that blab in the master file blabs.txt.
+5.- viewTimeline method allows user to view all of the blabs of the user's they follow. 
+Method gathers blabs from the "blabs.txt" master file, cross references users followed, and prints the blabs from user's the account follows. 
