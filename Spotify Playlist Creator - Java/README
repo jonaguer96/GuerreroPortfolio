@@ -1,0 +1,7 @@
+Program imitates a Spotify Playlist functionality. A user is able to name their playlist and add as many songs as they’d like to it and even make multiple playlists. Program focuses on reading and writing files. Codes does multiple things: 
+1.- The Playlist class stores all information of a playlist, which contains attributes and methods.
+2.- String attribute contains the name of the playlist and songList holds a list of songs within playlist.  The constructor takes the name of a playlist as a parameter and an array of songs as a parameter.
+3.- viewPlaylist method displays the current state of the playlist. 
+4.- The Song class stores all information pertaining to a Song object, including the attributes and methods like getName, getArtist, etc.
+5.- FileReader file focuses on reading and writing files. songDirectory will hold the CSV file. 
+6.- Other methods include displayMenu which displays the entirety of songs available, and others greet the user and close the program.
