@@ -1,1 +1,8 @@
-
+Code uses libraries and handles multiple functions. Among them is:
+1.- The class snake and food handle initialization of all imported modules, initializes snake and food position.  
+2.- Function next_turn handles the input of the user from keyboard and assigns it a string that is used in another function to move snake.
+3.- change_direction actually changes the direction of snake based on string from previous function.
+4.- check_collisions handles checking if snake ate itself or has hit a wall. Function returns the game over message, if so. 
+5.- Function Game Over finishes the game and prompts a message. 
+6.- The Main body of program opens a window based on the size of user's screen. 
+Constants are set like game width, height snake speed, color, background color, etc.
