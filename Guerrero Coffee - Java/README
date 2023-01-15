@@ -1,1 +1,14 @@
-
+Program focuses on basic implementation variable declarations, loops, file reading and user input.
+The user is presented a menu and is able to read the menu, pick an item from menu,
+view the cart (which total is calculated with tax and numbers added), checkout and exit. 
+The program focuses on the following things:
+1.- Reads the main text file to read the menu. 
+2.- Displays the main welcome message that explains ussage and gives options.
+3.- displayMenu displays the menu, but also accomodates the data from a generic text
+file and displays it in a easily readable format.
+4.- isBeverage checks if the item added is beverage or not.
+This is important because user will specify what size of drink compared to just order 
+a cake, for instance. 
+5.-isBakery checks if it is a bakery item. If so, it asks how many of that item they want. 
+6.- ViewCart displays the current cart before tax, including sizes of drink and number of items.
+7.- Checkout totals the tax and chargers the customer. 
